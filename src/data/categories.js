@@ -1,0 +1,68 @@
+const categories = [
+  {
+    id: 1,
+    name: 'iPhone Cases',
+    nameKa: 'iPhone ქეისები',
+    slug: 'iphone-cases',
+    description: 'ქეისები iPhone მოდელებისთვის.',
+    image: 'https://i.ibb.co/PGztgWgs/orangecase700.png',
+  },
+  {
+    id: 2,
+    name: 'Cables & USB',
+    nameKa: 'კაბელები და USB',
+    slug: 'cables-usb',
+    description: 'დამტენი კაბელები, USB-C და სხვა აქსესუარები.',
+    image: 'https://images.unsplash.com/photo-1615526675159-e248c3021d3f?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    id: 3,
+    name: 'Chargers',
+    nameKa: 'დამტენები',
+    slug: 'chargers',
+    description: 'სწრაფი დამტენები ტელეფონებისთვის.',
+    image: 'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    id: 4,
+    name: 'Headphones',
+    nameKa: 'ყურსასმენები',
+    slug: 'headphones',
+    description: 'Bluetooth და სადენიანი ყურსასმენები.',
+    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    id: 5,
+    name: 'Screen Protectors',
+    nameKa: 'ეკრანის დამცავები',
+    slug: 'screen-protectors',
+    description: 'დამცავი შუშები და ბრონები.',
+    image: 'https://images.unsplash.com/photo-1603539444875-76e7684265f6?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    id: 6,
+    name: 'Power Banks',
+    nameKa: 'Power Bank-ები',
+    slug: 'power-banks',
+    description: 'პორტატული დამტენები ყოველდღიური გამოყენებისთვის.',
+    image: 'https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    id: 7,
+    name: 'Car Accessories',
+    nameKa: 'მანქანის აქსესუარები',
+    slug: 'car-accessories',
+    description: 'მანქანის დამტენები და ტელეფონის სამაგრები.',
+    image: 'https://i.ibb.co/hxyv0DK8/caracc.avif',
+  },
+  {
+    id: 8,
+    name: 'Phone Stands',
+    nameKa: 'ტელეფონის სადგამები',
+    slug: 'phone-stands',
+    description: 'მაგიდის და MagSafe სადგამები.',
+    image: 'https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=900&q=80',
+  },
+]
+
+export default categories
