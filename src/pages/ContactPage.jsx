@@ -23,13 +23,6 @@ function ContactPage() {
             <a href={`https://wa.me/${contact.whatsappNumber}`} target="_blank" rel="noreferrer"><span>WhatsApp</span><strong>{contact.phoneDisplay}</strong></a>
           </div>
         </div>
-        <form className="contact-form" onSubmit={submitForm}>
-          <div><label>Name<input required name="name" placeholder="Your name" /></label><label>Phone or email<input required name="contact" placeholder="How can we reach you?" /></label></div>
-          <label>Subject<input name="subject" placeholder="Product or order question" /></label>
-          <label>Message<textarea required name="message" rows="6" placeholder="Tell us your phone model or product SKU..." /></label>
-          <button className="button button--primary" type="submit">Send message</button>
-          <small>Frontend-only form. Connect it to your preferred form service later.</small>
-        </form>
       </div></section>
     </>
   )
